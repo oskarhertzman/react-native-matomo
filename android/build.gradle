@@ -28,5 +28,5 @@ allprojects {
 
 dependencies {
     implementation "com.facebook.react:react-native:+"
-	implementation 'com.github.oskarhertzman:matomo-sdk-android-helsingborg-guide:v4.1.4'
+	implementation 'com.github.oskarhertzman:matomo-sdk-android-helsingborg-guide:4.1.4'
 }
