@@ -18,6 +18,10 @@ android {
         }
     }
 }
+plugins {
+    id 'maven-publish'
+}
+
 
 allprojects {
 		repositories {
@@ -28,5 +32,5 @@ allprojects {
 
 dependencies {
     implementation "com.facebook.react:react-native:+"
-	implementation 'com.github.oskarhertzman:matomo-sdk-android-helsingborg-guide:v4.0.1'
+	implementation 'com.github.oskarhertzman:matomo-sdk-android-helsingborg-guide:v4.1.4'
 }
