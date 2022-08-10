@@ -19,10 +19,12 @@ android {
     }
 }
 
-repositories {
-  mavenCentral()
-  maven { url 'https://jitpack.io' }
-}
+allprojects {
+		repositories {
+			mavenCentral()
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
 
 dependencies {
     implementation "com.facebook.react:react-native:+"
