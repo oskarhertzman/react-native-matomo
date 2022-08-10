@@ -19,7 +19,11 @@ android {
     }
 }
 
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+
 dependencies {
     implementation "com.facebook.react:react-native:+"
-    implementation 'org.matomo.sdk:tracker:4.0.1'
+	implementation 'com.github.oskarhertzman:matomo-sdk-android-helsingborg-guide:v4.0.1'
 }
